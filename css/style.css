@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;   
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+
+#descriptionContainer {
+    background: #222222;
+    color: #FFFFFF;
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: center;
+    align-content: center;
+    font-weight: 600;
+}
+
+#colorName {
+    color: #48A6EB
+}
+
+button {
+    color: #222222;
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: none;
+    border-style: solid;
+    border-color: #222222;
+    border-width: 4px;
+    font-weight: 600;
+}
